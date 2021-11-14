@@ -3,6 +3,7 @@
 ## Tehtävä Z 
 - Markdown on helppo tapa formatoida tekstiä, joka näyttää hyvältä
 kaikilla laitteilla.
+- Huomioi että merkin jälkeen pitää aina laittaa välilyönti
 - Lista: * tai -
 - Otsikko: #, kakkostason otsikko ##
 - Kappalejako: tyhjä rivi (tehdään tässä)
