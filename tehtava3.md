@@ -14,7 +14,9 @@ Uusi kappale
 - Sisennys: >, välilyönti lopettaa sisennyksen
 >sisennetty 
 - Linkki: [linkin teksti](www.google.fi)
-- Kuva: ![image](https://quiksite.com/wp-content/uploads/2016/09/Linux_Tux-300x300.png)
+- Kuva:
+
+ ![image](https://quiksite.com/wp-content/uploads/2016/09/Linux_Tux-300x300.png)
 
 ## Tehtävä A
 - Tee tehtävä Markdownina
