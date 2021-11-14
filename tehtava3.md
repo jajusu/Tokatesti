@@ -1,12 +1,14 @@
-#Harjoitus 3 
+#Harjoitus 3
+ 
 ##Tehtävä Z 
 - Markdown on helppo tapa formatoida tekstiä, joka näyttää hyvältä
 kaikilla laitteilla.
 - Lista: * tai -
 - Otsikko: #, kakkostason otsikko ##
-- Kappalejako: välilyönti (tehdään tässä) 
+- Kappalejako: tyhjä rivi (tehdään tässä) 
 Kappale alkaa tässä
-ja jatkuu täällä, mutta loppuu tässä 
+ja jatkuu täällä, mutta loppuu tässä
+ 
 Uusi kappale 
 - Sisennys: >, välilyönti lopettaa sisennyksen
 >sisennetty 
