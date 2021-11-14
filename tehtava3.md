@@ -14,10 +14,10 @@ Uusi kappale
 - Sisennys: >, välilyönti lopettaa sisennyksen
 >sisennetty 
 - Linkki: [linkin teksti](www.google.fi)
-- Kuva: ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png)
+- Kuva: ![image](https://quiksite.com/wp-content/uploads/2016/09/Linux_Tux-300x300.png)
 
-##Tehtävä A
+## Tehtävä A
 - Tee tehtävä Markdownina
 
-##Tehtävä B
+## Tehtävä B
 - 
