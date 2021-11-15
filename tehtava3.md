@@ -68,3 +68,28 @@ Viimeiset rivit
 
 ![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavac4.png?w=1024)
 
+## Tehtävä D
+Lisätään pupputekstiä testitiedosto.txt-tiedostoon. Lisätään muutokset uuteen versioon
+komennolla
+
+git add .
+
+Tarkistetaan status komennolla 
+
+git status
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavad1.png)
+
+Testitiedosto.txt:n sisältö on nyt seuraavanlainen.
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavad2.png)
+
+Ajetaan komento
+
+git reset --hard
+
+Komento palauttaa gitin tilan edelliseen versioon ja ilmottaa siitä. Tarkistetaan vielä
+Gitin status ja testitiedoston sisältö. Huomataan, että tiedosto ja versio ovat muutosta
+edeltävässä tilassa.
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavad3.png)
