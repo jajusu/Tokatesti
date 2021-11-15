@@ -23,4 +23,5 @@ Uusi kappale
 - Tee tehtävä Markdownina
 
 ## Tehtävä B
-- 
+- Luotiin kansio testikansio ja sinne tekstia.txt, johon lisättiin muutama
+rivi tekstiä. Lisätään vielä yksi tekstitiedosto projektin juureen.
