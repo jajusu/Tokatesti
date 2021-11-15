@@ -46,3 +46,25 @@ Muutokset näkyvät git repositoriossa.
 
 ![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavab5.png)
 
+## Tehtävä C
+Git log näyttää järjestyksessä edelliset versiot, commitit, tekijän, päivämäärän ja kellonajan.
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavac1-1.png)
+
+Git diff näyttää eron viimeisimmän version ja nyt tehtyjen muutosten välillä. Vihreällä
+näkyy mitä uutta on lisätty.
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavac2.png)
+
+Git blame näyttää tietyn tiedoston muokkaushistorian. Tässä ajettu komento 
+
+git blame tehtava3.md
+
+Ensimmäiset rivit
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavac3.png?w=1024)
+
+Viimeiset rivit
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavac4.png?w=1024)
+
