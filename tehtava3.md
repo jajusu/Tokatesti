@@ -20,7 +20,7 @@ Uusi kappale
  ![image](https://quiksite.com/wp-content/uploads/2016/09/Linux_Tux-300x300.png)
 
 ## Tehtävä A
-- Tee tehtävä Markdownina
+Tee tehtävä Markdownina
 
 ## Tehtävä B
 Luotiin kansio testikansio ja sinne tekstia.txt, johon lisättiin muutama
@@ -93,3 +93,34 @@ Gitin status ja testitiedoston sisältö. Huomataan, että tiedosto ja versio ov
 edeltävässä tilassa.
 
 ![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/tehtavad3.png)
+
+## Tehtävä E
+Navigoidaan aiemmin tehtyyn hakemistoon twohost. Ajetaan komento
+
+vagrant up
+
+Komento avaa edellisessä harjoituksessa tehdyt virtuaalikoneet.
+
+Kirjaudutaan virtuaalikoneelle t002, johon on asennettu salt master.
+
+vagrant ssh t002
+
+Navigoidaan hakemistoon /srv/salt ja luodaan sinne kansio uusitila
+
+sudo mkdir uusitila
+
+Siirytään kansioon ja luodaan tiedosto init.sls
+
+nano init.sls
+
+Tehdään tiedostoon salt-tila, joka hakee ensin paketit ja sen jälkeen asentaa ne.
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/uusitila1.png)
+
+Ajetaan tila ja tutkitaan tulokset.
+
+sudo salt '*' state.apply uusitila
+
+![image](https://linuxpalvelimet2021syksy.files.wordpress.com/2021/11/uusitila2.png)
+
+Huomataan, että haettiin paketti unzip. Apache2 ja salt-minion oli jo haettu ja asennettu.
